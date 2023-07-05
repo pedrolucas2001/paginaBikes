@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#pagina{
+    width: 70%;
+    height: auto;
+    margin: 0px auto;
+}
+
+header{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: url(imgs/fotoBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logoBanner{
+    width: 150px;
+    height: 150px;
+    background-image: url(imgs/logo_vou_de_bike.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+}
